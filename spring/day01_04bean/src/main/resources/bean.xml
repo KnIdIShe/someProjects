@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    三种创建bean对象的方式-->
+    <!--    1. 使用默认构造函数创建-->
+        <bean id="accountService" class="com.cho1r.service.impl.AccountServiceImpl" init-method="init" destroy-method="destroy"></bean>
+
+    <!--    2. 使用普通工厂中的方法创建对象-->
+<!--    <bean id="instanceFactory" class="com.cho1r.factory.InstanceFactory"></bean>-->
+<!--    <bean id="accountService" factory-bean="instanceFactory" factory-method="getAccountService"></bean>-->
+
+    <!--    3. 使用工厂中静态方法创建对象-->
+<!--    <bean id="accountService" class="com.cho1r.factory.StaticFactory" factory-method="getAccountService" scope="prototype"></bean>-->
+
+    <bean id="accountDao" class="com.cho1r.dao.impl.AccountDaoImpl"></bean>
+</beans>

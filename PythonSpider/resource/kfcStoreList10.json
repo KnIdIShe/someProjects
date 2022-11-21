@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 661
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 91,
+      "storeName": "明兴 ",
+      "addressDetail": "新桥镇明兴路口家乐福新南路购物中心101号商铺",
+      "pro": "Wi-Fi,店内参观,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 92,
+      "storeName": "上丰",
+      "addressDetail": "上丰路1772-1784号一层",
+      "pro": "Wi-Fi,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 93,
+      "storeName": "江文",
+      "addressDetail": "江文路589号一层A商铺",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 94,
+      "storeName": "合庆",
+      "addressDetail": "合庆镇庆南路8号",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 95,
+      "storeName": "亭枫",
+      "addressDetail": "朱泾镇沈浦泾路28号",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 96,
+      "storeName": "芳汇",
+      "addressDetail": "长寿路1118号（芳汇广场2楼）",
+      "pro": "Wi-Fi,店内参观,礼品卡,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 97,
+      "storeName": "枫泾",
+      "addressDetail": "枫泾镇白牛路280号",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 98,
+      "storeName": "车墩",
+      "addressDetail": "车墩镇影维路258弄2号一、二层",
+      "pro": "Wi-Fi,店内参观,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 99,
+      "storeName": "华泾",
+      "addressDetail": "华泾路509号7栋101商铺",
+      "pro": "Wi-Fi,点唱机,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    },
+    {
+      "rownum": 100,
+      "storeName": "鸿音",
+      "addressDetail": "南汇南芦公路1755号4-5幢",
+      "pro": "Wi-Fi,点唱机,店内参观,礼品卡,生日餐会,溯源",
+      "provinceName": "上海市",
+      "cityName": "上海市"
+    }
+  ]
+}

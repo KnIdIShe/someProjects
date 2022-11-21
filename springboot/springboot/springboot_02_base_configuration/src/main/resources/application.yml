@@ -1,0 +1,30 @@
+country: us
+
+users:
+  name: tom
+  age: 12
+
+likes:
+  - music
+  - game
+  - movie
+
+users2:
+  - name: tom
+    age: 12
+  - name: jerry
+    age: 11
+
+baseDir: c:\windows
+
+tmpDir: ${baseDir}\tmp
+
+datasource:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost/test
+  username: root
+  password: root
+
+#server:
+#  servlet:
+#    context-path: /test

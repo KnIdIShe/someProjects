@@ -1,0 +1,15 @@
+#应用环境
+#spring:
+#  profiles:
+#    active: dev
+#    include: devMVC, devDB
+
+spring:
+  profiles:
+    active: @profile.active@
+    group:
+      "dev": devMVC, devDB
+      "pro": proMVC, proDB
+
+server:
+  port: 80

@@ -1,0 +1,13 @@
+server:
+  port: 9037
+
+authtoken: pubacc
+
+chatRobotUrl: http://api.tianapi.com/robot/index?key=a8cb1bfc006845f8ef13bf10e43c83bc&question=
+
+appID: wx66a6c2d781ec58c8
+appsecret: 8f36d9d1ebf357b6e8b09d44ed7830d8
+
+get_access_token_url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appID}&secret=${appsecret}
+
+create_menu_url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=

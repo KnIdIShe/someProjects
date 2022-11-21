@@ -1,0 +1,43 @@
+SELECT ABS(10), ABS(-10);
+
+SELECT 10, BIN(10);
+
+SELECT CEILING(-1.2), CEILING(1.2), CEILING(1);
+
+SELECT CONV(8, 10, 2);
+SELECT CONV('A', 16, 10);
+
+SELECT FLOOR(-1.2), FLOOR(1.2), FLOOR(1);
+
+SELECT FORMAT(12.34567, 2);
+
+SELECT FORMAT(12.2314, 2);
+
+SELECT ROUND(12.56);
+
+# 10进制 - 16进制
+SELECT HEX(28);
+
+# 几个值的最小值
+SELECT LEAST(1, 2, -3, 3, 0);
+
+# 列的最小值
+SELECT MIN(deptno) FROM emp;
+
+SELECT MOD(10, 3);
+
+SELECT MOD(10.3, 3.3);
+
+# [0, 1]
+SELECT RAND();
+
+# 随机数种子固定, 随机数固定, 不过是随机的
+SELECT RAND(3);
+
+
+
+
+
+
+
+

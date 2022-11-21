@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 依赖注入 复杂类型/集合类型注入-->
+    <!--    list类型: list, array, set, 可互换使用, 常用list-->
+    <!--    map类型: map, props, 可互换使用, 常用map-->
+
+    <bean id="accountService3" class="com.cho1r.service.impl.AccountServiceImpl3">
+        <property name="arr">
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="1" value="tom"></entry>
+                <entry key="4">
+                    <value>alice</value>
+                </entry>
+            </map>
+        </property>
+        <property name="props">
+            <props>
+                <prop key="url">jdbc:mysql://localhost:3306</prop>
+                <prop key="user">root</prop>
+                <prop key="pwd">root</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <bean id="accountDao" class="com.cho1r.dao.impl.AccountDaoImpl"></bean>
+</beans>

@@ -1,0 +1,22 @@
+server:
+  port: 80
+logging:
+  level:
+    root: info
+    # com.cho1r.controller: debug
+    ebank: warn
+  # 设置分组
+  group:
+    ebank: com.cho1r
+    iservice: com.alibaba
+
+  # 日志模板格式
+  pattern:
+    console: "%d %clr(%5p) --- [%16t] %clr(%-40.40c){cyan} : %m %n"
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1KB
+      file-name-pattern: server_%d{yyyy-MM-dd}_%i.log
+
